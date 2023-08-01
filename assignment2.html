@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <link href="style.css" rel="stylesheet">
+        <title>HTML Forms Assignment</title>
+    </head>
+    <body>
+        <div class="form">
+        <form action="#" method="POST"> 
+            <h1>Contact Us</h1>
+            <label for="name">Name</label>
+            <input autofocus autocomplete="off" id="name" name="name" placeholder="Name" type="text" required>
+            <br>
+            <label for="email">Email</label>
+            <input autocomplete="off" id="email" name="email" placeholder="Email" type="email" required>
+            <br>
+            <label for="message">Message</label>
+            <br>
+            <textarea id="message" name="message" width="auto" height="auto" required>Please enter a message.</textarea>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+        <hr>
+        <form action="#" method="POST">
+            <h1>Log In</h1>
+            <label for="username">Username</label>
+            <input autofocus autocomplete="off" id="username" name="username" placeholder="Username" type="password" required>
+            <br>
+            <label for="password">Password</label>
+            <input autocomplete="off" id="password" name="password" placeholder="Password" type="password" required>
+            <br>
+            <input type="submit" value="Log in">
+        </form>
+        <hr>
+        <form action="#" method="POST">
+            <h1>Survey</h1>
+            <label for="name">Name:</label>
+            <input autofocus autocomplete="off" id="name" name="name" placeholder="Name" type="text" required>
+            <br>
+            <label for="age">Age:</label>
+            <input id="age" min="1" max="100" name="age" placeholder="Number" type="number" required>
+            <br>
+            <span>Gender:</span>
+            <input id="male" name="gender" type="radio" value="male">
+            <label for="male">Male</label>
+            <input id="female" name="gender" type="radio" value="female">
+            <label for="female">Female</label>
+            <br>
+            <span>Which programming languages do you know?</span>
+            <br>
+            <input type="checkbox" name="programming" id="c" value="c">
+            <label for="c">C</label>
+            <input type="checkbox" name="programming" id="python" value="python">
+            <label for="python">Python</label>
+            <input type="checkbox" name="programming" id="c++" value="c++">
+            <label for="c++">C++</label>
+            <label for="comments">Comments:</label>
+            <br>
+            <textarea id="comments" name="comments" width="auto" height="auto" required>Comments</textarea>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+        </div>
+    </body>
+</html>
