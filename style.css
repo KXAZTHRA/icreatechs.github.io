@@ -6,3 +6,20 @@ img {
     height: 500px;
     width: 100%;
 }
+
+.form {
+    margin: 10% auto;
+}
+
+form {
+    text-align: center;
+}
+
+input {
+    margin: 5px;
+}
+
+
+textarea {
+    margin: 5px;
+}
